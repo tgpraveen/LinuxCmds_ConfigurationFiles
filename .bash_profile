@@ -6,6 +6,8 @@ alias ls="ls -Gah"
 alias mysql="mysql -u '' -p"
 #password root
 
+HISTFILESIZE=10000
+
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
 
