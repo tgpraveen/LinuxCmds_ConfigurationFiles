@@ -2,7 +2,7 @@ alias postgresd="postgres -D /usr/local/var/postgres &"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias ls="ls -Gah"
+alias ls="ls -Gaht"
 alias mysql="mysql -u '' -p"
 #password root
 
