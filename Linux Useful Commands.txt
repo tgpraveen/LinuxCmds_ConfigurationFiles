@@ -1,0 +1,17 @@
+## rsync
+
+## Transfer Local File to Remote.
+rsync -avh -P localfilename.csv ec2-user@remoteserveraddress:remotepath
+
+##conda
+
+conda create --name datascience1 pandas
+> condo install —name datascience1 python python-notebook
+>To install this package with conda run:
+  > conda create —name pipelines1 -c https://conda.anaconda.org/ioos luigi
+
+# To activate this environment, use:
+# $ source activate datascience1
+#
+# To deactivate this environment, use:
+# $ source deactivate
