@@ -1,6 +1,6 @@
 ## rsync
 
-## Transfer Local File to Remote.
+# Transfer Local File to Remote.
 rsync -avh -P localfilename.csv ec2-user@remoteserveraddress:remotepath
 
 ##conda
